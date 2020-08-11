@@ -1,0 +1,28 @@
+#movies img{
+    width: 100%;
+    margin-top: -15px;
+    padding: 28px 38px;
+}
+/* @media used to adjust the data on the screen accordingly to the screen size  */ */
+@media(min-width: 960px) {
+    #movies .col-md-3 .well{
+        height:430px;
+    }
+
+    #movies .col-md-3 img{
+        height: 240px;
+    }
+}
+
+#btnn {
+       display: flex;
+        margin: auto;
+        margin-top: 15px;
+        color: #fff;
+         padding: 6px 27px;
+         background-color: #2387b7;
+         border-color: #2180ac;
+         border-radius: 7px;
+         font-size: 15px; 
+}
+
