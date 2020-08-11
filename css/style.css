@@ -13,8 +13,10 @@
         height: 240px;
     }
 }
-/* ////// */
-
+/* //////. */
+.row{
+    padding: 79px 122px;
+}
 #btnn {
        display: flex;
         margin: auto;

@@ -11,7 +11,7 @@ $(document).ready(()=>{
 function getMovies(searchText){
     // console.log(searchText);
     // we will use this searchText to request the API
-    axios.get('https://www.omdbapi.com/?apikey=59ead2b5&s=' + searchText)
+    axios.get('https://www.omdbapi.com/?apikey=6b832f53&s=' + searchText)
     .then((response)=>{
         console.log(response);
         let movies=response.data.Search;// to attach the array of movies
@@ -43,7 +43,7 @@ function movieSelected(id){
 function getMovie(){
     let movieId=sessionStorage.getItem('movieId');
     // axios.get('http://www.omdbapi.com/?i=tt3896198&apikey=6b832f53&i=' + movieId)
-    axios.get('https://www.omdbapi.com/?apikey=59ead2b5&i=' + movieId)
+    axios.get('https://www.omdbapi.com/?apikey=6b832f53&i=' + movieId)
     .then((response)=>{
         console.log(response);
         let movie = response.data;
