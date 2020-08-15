@@ -1,4 +1,4 @@
-#MovieInfo Web App
+# MovieInfo Web App
 * A responsive JavaScript ES6/jQuery web app that fetches movie data from the OMDb REST API.
 * Technology Used => JavaScript, jQuery, axios, bootstrap, css, html
 ## How to use ?
